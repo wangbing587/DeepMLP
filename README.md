@@ -103,7 +103,7 @@ options:
 the DeepMLP.py can be run from the command line interface with the following commands, where -f (dataset file) and -a (sample annotation file) are the two required parameters. An example command is “python DeepMLP.py -f COAD_Protein.csv -a COAD_an_col.csv”, in which “-f” is input dataset file and “-a” is sample annotation file. 
 
 ```shell
-python DeepMLP.py -f COAD_Protein.csv -a an_col.csv
+python DeepMLP.py -f COAD_Protein.csv -a COAD_an_col.csv
 ```
 
 
