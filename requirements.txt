@@ -1,0 +1,9 @@
+pandas>=2.2.2
+numpy>=1.26.4
+torch>=2.4.1+cu124
+torch-geometric==2.6.1
+torch-scatter==2.1.2+pt24cu124
+gseapy>=1.1.9
+networkx>=3.2.1
+iterative-stratification>=0.1.9
+scikit-learn>=1.4.2
