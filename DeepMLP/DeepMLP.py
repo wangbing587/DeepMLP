@@ -295,9 +295,9 @@ class PathLoc:
                 if val_auc > val_auc_best:
                     outputs_best = outputs
                     val_auc_best = val_auc
-                    patience_counter += 1
-                else:
                     patience_counter = 0
+                else:
+                    patience_counter += 1
 
                 if patience_counter >= self.patience:
                     break
@@ -498,3 +498,4 @@ if __name__ == '__main__':
     t0 = time.time()
     main(datafile, an_col,p, n_splits, epochs)
     print('using time: {} m {}s'.format(int((time.time() - t0) // 60), (time.time() - t0) % 60))
+
